@@ -225,8 +225,8 @@ pub use noop_lock::NoopLock;
 pub mod buffer;
 
 #[allow(dead_code)]
-mod intrusive_double_linked_list;
-mod intrusive_pairing_heap;
+pub mod intrusive_double_linked_list;
+pub mod intrusive_pairing_heap;
 
 pub mod channel;
 pub mod sync;
